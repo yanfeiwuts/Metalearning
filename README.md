@@ -11,13 +11,13 @@ README
 
 ## Overview
 ### Description
-This app wll have users connect, learn and share solutions to tech.
+This app wll have users connect, learn and share music.
 
 ### App Evaluation
 [Evaluation of your app across the following attributes]
-- **Category:** Education, Networking
+- **Category:** Entertainment, Networking
 - **Mobile:** iOS, Android
-- **Story:** Help students study and learn computer science concepts in a fun and easy way
+- **Story:** Help students share and listen to music in a fun and easy way
 - **Market:** Aimed toward students
 - **Habit:** Could be used at any time
 - **Scope:** Pairing students with similiar interests
