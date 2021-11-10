@@ -17,7 +17,7 @@ This app wll have users connect, learn and share music.
 [Evaluation of your app across the following attributes]
 - **Category:** Entertainment, Networking
 - **Mobile:** iOS, Android
-- **Story:** Help students share and listen to music in a fun and easy way
+- **Story:** Help people share and listen to music in a fun and easy way
 - **Market:** Aimed toward students
 - **Habit:** Could be used at any time
 - **Scope:** Pairing students with similiar interests
