@@ -1,7 +1,7 @@
 README
 ===
 
-# MetaMusic 
+# MetaMusic_Yanfei 
 
 ## Table of Contents
 1. [Overview](#Overview)
@@ -11,7 +11,7 @@ README
 
 ## Overview
 ### Description
-This app wll have users connect, learn and share music.
+Tracks what music an individual listens to, and pairs them with others based on that music. We can meet new friends with similar music tastes. In addition, people can check the latest concert information.sic.
 
 ### App Evaluation
 [Evaluation of your app across the following attributes]
