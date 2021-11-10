@@ -1,7 +1,7 @@
 README
 ===
 
-# MetaLearning
+# Meta_Music
 
 ## Table of Contents
 1. [Overview](#Overview)
@@ -11,16 +11,16 @@ README
 
 ## Overview
 ### Description
-This app wll have users connect, learn and share music.
+Tracks what music an individual listens to, and pairs them with others based on that music. We can meet new friends with similar music tastes. In addition, people can check the latest concert information.
 
 ### App Evaluation
 [Evaluation of your app across the following attributes]
 - **Category:** Entertainment, Networking
-- **Mobile:** iOS, Android
-- **Story:** Help people share and listen to music in a fun and easy way
-- **Market:** Aimed toward students
-- **Habit:** Could be used at any time
-- **Scope:** Pairing students with similiar interests
+- **Mobile:** iOS, Android, our app would be primarily developed for mobile.
+- **Story:** Help users to share and listen to music in a fun and easy way. At the same time, users can connect with others with the same interest and make friends.
+- **Market:** People who prefer to use our App, want to connect with others and check out the latest music information.
+- **Habit:** How often the App is depend on the users.
+- **Scope:** Pairing people with similiar music taste, perhaps this might become a music sharing application. 
 
 ## Product Spec
 
@@ -30,7 +30,7 @@ This app wll have users connect, learn and share music.
 
 * Users register to new account (Email, Facebook, Github)
 * Users logs in to access account
-* User picks the technology/language/etc they would like to learn
+* User picks what their favorite artist/genre/etc.
 * Settings (Accessibility, Notification, General, etc.)
 
 **Optional Nice-to-have Stories**
@@ -81,44 +81,10 @@ Optional:
 ### [BONUS] Interactive Prototype
 
 ## Schema 
-
-   | Property      | Type     | Description |
-   | ------------- | -------- | ------------|
-   | objectId      | String   | unique id for the user post (default field) |
-   | author        | Pointer to User| image author |
-   | image         | File     | image that user posts |
-   | caption       | String   | image caption by author |
-   | commentsCount | Number   | number of comments that has been posted to an image |
-   | likesCount    | Number   | number of likes for the post |
-   | createdAt     | DateTime | date when post is created (default field) |
-   | updatedAt     | DateTime | date when post is last updated (default field) |
+[This section will be completed in Unit 9]
 ### Models
 [Add table of models]
 ### Networking
 - [Add list of network requests by screen ]
-- Home Feed Screen
-      - (Read/GET) Query all posts where user is author
-         ```swift
-         let query = PFQuery(className:"Post")
-         query.whereKey("author", equalTo: currentUser)
-         query.order(byDescending: "createdAt")
-         query.findObjectsInBackground { (posts: [PFObject]?, error: Error?) in
-            if let error = error { 
-               print(error.localizedDescription)
-            } else if let posts = posts {
-               print("Successfully retrieved \(posts.count) posts.")
-           // TODO: Do something with posts...
-            }
-         }
-         ```
-      - (Create/POST) Create a new like on a post
-      - (Delete) Delete existing like
-      - (Create/POST) Create a new comment on a post
-      - (Delete) Delete existing comment
-   - Create Post Screen
-      - (Create/POST) Create a new post object
-   - Profile Screen
-      - (Read/GET) Query logged in user object
-      - (Update/PUT) Update user profile image
 - [Create basic snippets for each Parse network request]
 - [OPTIONAL: List endpoints if using existing API such as Yelp]
